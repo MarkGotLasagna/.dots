@@ -1,0 +1,65 @@
+# Configuration for Alacritty, the GPU enhanced terminal emulator.
+# example config can be found at /usr/share/doc/alacritty/alacritty.yml
+window:
+  padding:
+    x: 10
+    y: 10
+  dynamic_padding: true
+  decorations: none
+
+font:
+  normal:
+    family: Noto Sans Mono
+    style: Regular
+
+  bold:
+    family: Noto Sans Mono
+    style: Bold
+
+  italic:
+    family: Noto Sans Mono
+    style: Italic
+
+  bold_italic:
+    family: Noto Sans Mono
+    style: Bold Italic
+
+  size: 12
+
+# Colors (Hyper)
+colors:
+  # Default colors
+  primary:
+    background: "#ffffff"
+    foreground: "#000000"
+  cursor:
+    text: "#F81CE5"
+    cursor: "#000000"
+
+  # Normal colors
+  normal:
+    black: "#ffffff"
+    red: "#fe0100"
+    green: "#33ff00"
+    yellow: "#ffd000"
+    blue: "#0066ff"
+    magenta: "#cc00ff"
+    cyan: "#00ffff"
+    white: "#000000"
+
+  # Bright colors
+  bright:
+    black: "#808080"
+    red: "#fe0100"
+    green: "#33ff00"
+    yellow: "#ffd000"
+    blue: "#0066ff"
+    magenta: "#cc00ff"
+    cyan: "#00ffff"
+    white: "#FFFFFF"
+
+  selection:
+    background: "#1b90dd"
+
+    # Normal colors
+
