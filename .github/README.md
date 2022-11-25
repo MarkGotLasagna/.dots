@@ -63,3 +63,17 @@ polybar corner | Corner & shadow
 The compositor. If you want rounded corners on your windows, blurred background, different opacity for different programs and shadows, you need it. I'm a sucker for rounded corners.
 
 Note: shadows may break/overlap on windows' frames if the `corner-radius` variable is not adjusted. This is a known bug, make sure rounded corners specified in the `i3` config don't conflict with the ones specified here.
+
+## `ranger`
+<img src="/.images/ranger.png" alt="ranger" width="50%"/>
+
+A text-based file manager.
+
+I use it to quickly browse and open files in the terminal. The default configuration comes with different apps specified to open files, mine is different because I have different apps to open, say, pdf or notes.
+
+## `rofi`
+<img src="/.images/rofi.png" alt="rofi" width="50%" />
+
+Application launcher.
+
+Can be configured in most aspects that you'd expect (background or foreground color, inner/outer gaps, icons to be used, font and size).
