@@ -1,0 +1,20 @@
+[display]
+compact = false
+use_pager = true
+
+[style.command_name]
+foreground = "white"
+
+[style.example_text]
+foreground = "black"
+background = "white"
+
+[style.example_code]
+foreground = "white"
+
+[style.example_variable]
+foreground = "blue"
+underline = true
+
+[updates]
+auto_update = true
