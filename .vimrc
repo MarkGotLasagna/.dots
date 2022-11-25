@@ -5,7 +5,7 @@
 :set incsearch
 :set ignorecase
 :set autoindent
-":set spell
+:set spell
 :set nocompatible
 :set showmatch
 filetype on
