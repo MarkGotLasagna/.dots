@@ -106,8 +106,6 @@ alias zshconfig="mate ~/.zshrc"
 alias ohmyzsh="mate ~/.oh-my-zsh"
 
 ### DEFINED BY ME EXPORTS
-export uniserver="connect.unipr.it:4443"
-export unimail="marco.rondelli@studenti.unipr.it"
 # will fix terminal capability issues
 export TERM="xterm-256color"
 export EDITOR="nvim"
