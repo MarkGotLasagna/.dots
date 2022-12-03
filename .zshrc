@@ -128,6 +128,9 @@ alias sysenabe="sudo systemctl enable"
 alias systop="sudo systemctl stop"
 alias sysdisabe="sudo systemctl disable"
 alias config='/usr/bin/git --git-dir=/home/maruko/.cfg/.git/ --work-tree=/home/maruko'
+alias timelist='sudo timeshift --list'
+alias timecreate='sudo timeshift --create --comments'
+alias timedelete='sudo timeshift --delete --snapshot'
 
 eval $(thefuck --alias)
 

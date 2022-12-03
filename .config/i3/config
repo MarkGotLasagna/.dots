@@ -234,3 +234,4 @@ bindcode 208 exec --no-startup-id playerctl play-pause
 # FLOATING WINDOW BY DEFAULT
 # to find "class" and "instance": xprop | grep "WM_CLASS(STRING)"
 for_window [class="TelegramDesktop" instance="telegram-desktop"] floating enable
+for_window [class="Spotify" instance="spotify"] floating enable
