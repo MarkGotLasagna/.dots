@@ -29,5 +29,3 @@ call plug#end()
 colorscheme paramount
 
 let g:dbext_default_profile_PG = 'type=PGSQL:user=postgres:passwd=postgres:host=localhost:dbname=manifesto_studi'
-
-ciao
