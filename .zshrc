@@ -127,11 +127,12 @@ alias sysrest="sudo systemctl restart"
 alias sysenabe="sudo systemctl enable"
 alias systop="sudo systemctl stop"
 alias sysdisabe="sudo systemctl disable"
+alias syslist-fail="sudo systemctl list-units --failed"
 alias config='/usr/bin/git --git-dir=/home/maruko/.cfg/.git/ --work-tree=/home/maruko'
-alias timelist='sudo timeshift --list'
-alias timecreate='sudo timeshift --create --comments'
-alias timedelete='sudo timeshift --delete --snapshot'
-
+alias gits='git status'
+alias gita='git add'
+alias gitc='git commit -m'
+alias gitp='git push'
 eval $(thefuck --alias)
 
 
