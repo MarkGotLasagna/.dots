@@ -109,6 +109,7 @@ alias ohmyzsh="mate ~/.oh-my-zsh"
 # will fix terminal capability issues
 export TERM="xterm-256color"
 export EDITOR="nvim"
+export LC_ALL="en_US.UTF-8"
 
 ### DEFINED BY ME ALIASES
 alias pac="sudo pacman -S"

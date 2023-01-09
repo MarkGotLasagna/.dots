@@ -235,6 +235,7 @@ bindcode 208 exec --no-startup-id playerctl play-pause
 # to find "class" and "instance": xprop | grep "WM_CLASS(STRING)"
 for_window [class="TelegramDesktop" instance="telegram-desktop"] floating enable
 for_window [class="Spotify" instance="spotify"] floating enable
+for_window [class="Zathura" instance="org.pwmt.zathura"] floating enable
 
 # start Flameshot on pressing "Print"
 bindsym Print exec --no-startup-id flameshot gui
