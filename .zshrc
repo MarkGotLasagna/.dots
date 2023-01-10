@@ -110,6 +110,7 @@ alias ohmyzsh="mate ~/.oh-my-zsh"
 export TERM="xterm-256color"
 export EDITOR="nvim"
 export LC_ALL="en_US.UTF-8"
+export BAT_THEME="ansi"
 
 ### DEFINED BY ME ALIASES
 alias pac="sudo pacman -S"
