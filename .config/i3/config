@@ -193,6 +193,9 @@ bindsym $ms+u exec --no-startup-id setxkbmap us -variant euro
 bindsym $ms+i exec --no-startup-id setxkbmap it
 bindsym $ms+g exec --no-startup-id setxkbmap jp
 
+### START REDSHIFT
+exec --no-startup-id redshift-gtk
+
 ### ENABLE BRIGHTNESS KEYS
 # https://github.com/Hummer12007/brightnessctl
 # user needs to be in the video group
@@ -210,7 +213,7 @@ gaps outer 4
 gaps top -10
 
 ### STARTS PICOM COMPOSITOR
-exec_always --no-startup-id picom -b --config /home/maruko/.config/picom/picom.conf
+exec_always --no-startup-id picom -b --animations --animation-window-mass 0.5 --animation-for-open-window zoom --animation-stiffness 350
 
 ### START FEH WALLPAPER
 # note: exec_always will run the script on each reload, not ideal

@@ -5,7 +5,7 @@
 :set incsearch
 :set ignorecase
 :set autoindent
-:set spell
+" :set spell
 :set nocompatible
 :set showmatch
 filetype on
@@ -26,6 +26,6 @@ call plug#begin()
 
 call plug#end()
 
-colorscheme paramount
+colorscheme default
 
 let g:dbext_default_profile_PG = 'type=PGSQL:user=postgres:passwd=postgres:host=localhost:dbname=manifesto_studi'

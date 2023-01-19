@@ -1,0 +1,18 @@
+/home/maruko/Documents/Obsidian Vault/.obsidian/plugins/
+├── cm-editor-syntax-highlight-obsidian
+├── cmenu-plugin
+├── highlightr-plugin
+├── obsidian-admonition
+├── obsidian-code-block-enhancer
+├── obsidian-dynamic-toc
+├── obsidian-emoji-toolbar
+├── obsidian-functionplot
+├── obsidian-icon-folder
+├── obsidian-icons-plugin
+├── obsidian-languagetool-plugin
+├── obsidian-pandoc
+├── obsidian-tikzjax
+├── table-editor-obsidian
+└── list.txt
+
+15 directories, 1 file
