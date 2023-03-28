@@ -1,6 +1,6 @@
 :set mouse=a
 :set number
-:set tabstop=4
+:set tabstop=2
 :set background=light
 :set incsearch
 :set ignorecase
